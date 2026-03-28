@@ -1,15 +1,19 @@
-#include <stdio.h>
-int main()
-{
-    int x = 10;
-    int age = 26;
-    float price = 99.5;
-    char grade = 'a';
-    printf("x= %d", x);
-    printf("\nage= %d", age);
-    printf("\nprice= %f", price);
-    printf("\ngrade= %c", grade);
+#include<stdio.h>
+int main (){
 
+    int a;
+    int b;
+    printf("please enter first value : ");
+    scanf("%d",&a);
+    printf("Please enter second value : ");
+    scanf("%d",&b);
+    printf("\nAdd = %d",a+b);
+    printf("\nminus = %d",a-b);
+    printf("\nmuiltply = %d",a*b);
+    printf("\ndivide = %d",a/b);
     
+    
+    
+
     return 0;
 }
